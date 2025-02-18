@@ -7,7 +7,7 @@ from pydantic import SecretStr
 
 
 async def siteValidation():
-    os.environ["GEMINI_API_KEY"]= "AIzaSyCOYEfVtWdNRYtzjYhXueyOdmVno0IKBNQ"
+    os.environ["GEMINI_API_KEY"]= "<your key>"
     task =(
         'Important: I am UI Automation tester validating the tasks'
         'Open website https://rahulshettyacademy.com/loginpagePractise/'
